@@ -42,7 +42,7 @@ body {
 }
 
 .input-container input[type="text"]::placeholder {
-    color: #999;
+    color: #e8e1e1;
 }
 
 #add-tesk-btn {
