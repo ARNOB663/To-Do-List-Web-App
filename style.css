@@ -1,0 +1,93 @@
+/* Centering the container and setting dark mode styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border: 1px solid #a8a2bc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ddd;
+}
+
+.input-container input[type="text"]::placeholder {
+    color: #999;
+}
+
+#add-tesk-btn {
+    padding: 8px 12px;
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-tesk-btn:hover {
+    background-color: #8c0fed;
+}
+
+/* Task list styling */
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #333;
+    border-radius: 5px;
+    color: #ddd;
+}
+
+/* Delete button styling */
+.delete-btn {
+    background-color: #d11a2a;
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff4c4c;
+}
