@@ -14,7 +14,22 @@ const newTask = {
     text: taskText,
     completed: false 
 }
-task.push(newTask)
+task.push(newTask);
+saveTasks();
 todoInput.value = ""// clear input
 console.log(task)
 });
+
+function renderTasks(task)
+{
+   console.log(task)
+}
+
+
+function saveTasks()
+{
+
+ localStorage.setItem('task',JSON.stringify(task));
+
+
+}
