@@ -27,16 +27,12 @@ document.addEventListener('DOMContentLoaded', () =>{
     
     function renderTasks(task)
     {
-       console.log(task)
+       console.log(task.text)
+
     }
-    
     
     function saveTasks()
     {
-    
      localStorage.setItem('task',JSON.stringify(task));
-    
-    
     }
-
 })
